@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Firmament Generator ::</title>
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
+        html {
+            background-color: black;
+            color: white;
+        }
+
+        .float {
+            position: fixed;
+            width: 30;
+            height: 30px;
+            bottom: 15px;
+            right: 15px;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .my-float {
+            margin-top: 22px;
+        }
+
+        .py-overlay {
+            display: none;
+        }
+
+        body {
+            background-color: black;
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 24px;
+        }
+
+        .tooltip {
+            display: none;
+            position: absolute;
+            font-size: 10px;
+            width: 160px;
+            text-align: right;
+            padding: 5px 10px;
+        }
+
+        .tooltip-container:hover .tooltip {
+            display: block;
+            z-index: 50;
+            margin-top: -80px;
+            margin-left: -140px;
+        }
+
+        a {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <py-script style="display: none" src="index.py">
+    </py-script>
+    <p id="creek"></p>
+    <div class="float tooltip-container">
+        <span>&#x1F52E</span>
+        <p class="my-float tooltip">This poetry generator was created by Scarlett Eliza. View her work at
+            <a href="https://scarletteliza.com">scarletteliza.com</a>
+        </p>
+    </div>
+</body>
+
+</html>
