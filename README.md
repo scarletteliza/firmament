@@ -1,6 +1,6 @@
 # Firmament Generator ::
 
-A small generator, always shifting shape (in the words of Florence + the Machine).
+A small poetry generator, always shifting shape (in the words of Florence + the Machine).
 
 Things I'm interested in ::
 - 🧪 program as poem
